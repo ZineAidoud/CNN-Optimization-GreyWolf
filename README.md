@@ -20,7 +20,7 @@ L'algorithme imite la hiérarchie sociale des loups (Alpha, Bêta, Delta) pour e
 X(t+1) = X_p(t) - A*D
 La fonction de fitness utilisée pour évaluer chaque architecture est définie par :
 Fitness = (1 - Accuracy_val) + lambda * (Params/Params_max)
-
+![Animation de la convergence GWO](evolution_GWO.gif)
 # Points forts du projet
 - Mon programme a réussi à créer une IA 66% moins lourde qu'une version classique. Elle utilise donc beaucoup moins de mémoire et de puissance pour fonctionner.
 - Grâce à l'algorithme des loups (GWO), l'IA trouve les bons réglages très rapidement dès le début des tests. On ne perd pas de temps à chercher dans le vide.

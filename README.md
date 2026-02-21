@@ -10,7 +10,9 @@ L'étude compare trois approches d'optimisation sur le jeu de données MNIST:
 | Algorithme | Temps d'exécution | Précision (Test) |
 
 | **Differential Evolution (DE)** | 2687s | 99.01% |
+
 | **GWO (avec itérations)** | 1320s | 99.08% |
+
 | **GWO (avec seuil)** | **1421s** | **99.23%** |
 
 NB : Les tests ont été réalisés avec une population de 12 loups sur 10 itérations principales.
